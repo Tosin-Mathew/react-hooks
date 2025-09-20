@@ -1,0 +1,16 @@
+.movie-list {
+  padding: 20px;
+}
+
+.movie-list h2 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.movies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 25px;
+  justify-content: center;
+}
